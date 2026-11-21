@@ -1,0 +1,30 @@
+{
+  "title": "One Brain, Two Rulers: The Hippocampal Formation Measures 21% Smaller After Perfusion Fixation in the Same Marmoset Brains",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Comparative neuroanatomy pools brain volumes measured in different states of the same organ — alive, fixed, sectioned — as if the state were immaterial. This paper tests that assumption in the one design that isolates it: the same brain, scanned in vivo and again ex vivo after perfusion fixation, with the same atlas and the same pipeline — the paired design first run by Yoshimaru et al. (2024) at n = 12, run here at n = 30 on the public Brain/MINDS paired label set, under a pre-registration fixed before any download. Using the Brain/MINDS marmoset MRI dataset (Hata et al., 2023; NA216/eNA91), we pre-registered a paired test with fixed thresholds before any download, and measured all 30 animals that carry both an in-vivo and an ex-vivo label image under the shipped Label052 (Hashikawa) atlas. The hippocampal formation reads a median 21.0% smaller in the fixed brain (IQR −23.1% to −17.6%; all 30 pairs negative), against a registered threshold of 10%; total labelled gray matter reads 10.4% smaller (IQR −12.3% to −7.3%; 28 of 30 pairs negative), against a registered threshold of 5%. Both registered thresholds were crossed, and none of the registered kill conditions fired. The shift is structure-dependent, not a uniform scale factor: 72 of 104 labels shrink by more than 2% at the median, while 17 read larger ex vivo, concentrated at the frontal/olfactory pole. A paired preparation effect of ~21% in the hippocampal formation is the same order as the cross-archive discrepancies the field argues about; it cannot be dismissed as cohort noise. Keywords: marmoset; Brain/MINDS; perfusion fixation; hippocampal formation; MRI volumetry; pre-registration; measurement",
+  "creators": [
+    {
+      "name": "Chourey, Atharva",
+      "affiliation": "Atharva Chourey Lab — independent research lab",
+      "orcid": "0009-0009-9423-1718"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "marmoset",
+    "hippocampus",
+    "perfusion fixation",
+    "MRI",
+    "pre-registration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/atharva-chourey-lab/marmoset-two-rulers",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Manuscript — not yet peer-reviewed. Self-published by Atharva Chourey Lab (human-AI collaboration: Atharva Chourey + Lapis)."
+}
