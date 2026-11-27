@@ -28,3 +28,17 @@ volumes, code and pre-registration.
 - Hippocampal formation: median −21.0%, 30/30 pairs negative.
 - Total labelled gray matter: median −10.4%, 28/30 pairs negative.
 - Both registered thresholds crossed; no kill conditions fired.
+
+## Correction — 2026-11-27 (side convention for per-structure shifts)
+
+In the shipped Brain/MINDS Label052 files, labels 1–52 sit on opposite sides
+in the in-vivo and ex-vivo images (verified from the NIfTI headers in all 30
+pairs: the world-x centroid of label 38 minus label 90 is negative in every
+in-vivo file and positive in every ex-vivo file). Side-specific comparisons
+in `per_structure_shift_n30.csv` therefore remap ex-vivo label IDs
+(k ↔ k+52), with "left" following the in-vivo header. The originally
+deposited version of this file compared matching IDs without the remap;
+its side-specific medians are superseded by the corrected file.
+`paired_volumes_n30.csv` is unaffected (bilateral sums are invariant
+under the swap), and `per_label_volumes_n30.csv` reports volumes per
+shipped label ID, exactly as computed from the files.
